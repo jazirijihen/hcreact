@@ -1,0 +1,52 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "name": "highcharts-react-native",
+  "version": "3.1.7",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "update-highcharts": "npm install -D highcharts@latest && npx gulp update-highcharts"
+  },
+  "description": "Highcharts react native wrapper",
+  "license": "SEE LICENSE IN <LICENSE>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highcharts/highcharts-react-native.git"
+  },
+  "keywords": [
+    "highcharts",
+    "highstock",
+    "highmaps",
+    "react-native"
+  ],
+  "author": "Highcharts",
+  "bugs": {
+    "url": "https://github.com/highcharts/highcharts-react-native"
+  },
+  "contributors": [
+    "Sebastian Bochan <sebastian@blacklabel.pl>",
+    "Daniel Studencki <daniel.studencki@gmail.com>"
+  ],
+  "homepage": "https://github.com/highcharts/highcharts-react-native#readme",
+  "dependencies": {
+    "expo": "~38.0.8",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-web": "~0.11.7",
+    "react-native-webview": "10.6.0",
+    "@highcharts/highcharts-react-native": "./dist/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "highcharts": "^9.0.1"
+  },
+  "private": true
+}
